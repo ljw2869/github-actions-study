@@ -18,5 +18,10 @@ jobs:
     steps:
       - name: Hello World 출력
         run: echo "Hello World"
+        
+      - name: 여러 명령어 문장 작성하기 # 여러 줄 입력을 위해 | 기호 사용
+        run: |
+          echo "Good"
+          echo "Morning"
 
 
